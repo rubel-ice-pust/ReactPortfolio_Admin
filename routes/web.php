@@ -14,3 +14,24 @@
 */
 
 $router->get('/ChartData','ChartDataController@onAllSelect');
+$router->get('/ClientReview','ClientReviewController@onAllSelect');
+$router->post('/ContactSend','ContactController@onContactSend');
+$router->get('/CourseHome','CourseController@onSelectFourData');
+$router->get('/CourseAll','CourseController@onSelectAllData');
+$router->post('/CourseDetails','CourseController@onSelectDetails');
+$router->get('/FooterData','FooterController@onSelectData');
+$router->get('/Information','InformationController@onSelectInformation');
+$router->get('/Services','ServiceController@onSelectService');
+
+$router->get('/ProjectData','ProjectController@onSelectThreeData');
+$router->get('/ProjectDataAll','ProjectController@onSelectAllData');
+$router->post('/ProjectDataDetails','ProjectController@onSelectDetailsData');
+
+
+
+
+
+
+
+
+
