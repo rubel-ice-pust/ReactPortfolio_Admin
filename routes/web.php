@@ -27,6 +27,17 @@ $router->get('/ProjectData','ProjectController@onSelectThreeData');
 $router->get('/ProjectDataAll','ProjectController@onSelectAllData');
 $router->post('/ProjectDataDetails','ProjectController@onSelectDetailsData');
 
+$router->get('/VideoHome','HomeEtcController@onSelectVideo');
+$router->get('/TotallProjectClient','HomeEtcController@onSelectProjectClient');
+$router->get('/TechDesc','HomeEtcController@onSelectTechDEsc');
+$router->get('/HomeTopTitle','HomeEtcController@onSelectHomeTopTitle');
+
+
+
+
+
+
+
 
 
 
